@@ -1,0 +1,36 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\Model2.py
+['no', 'yes']
+(202, 114, 114, 3) (202, 2) (51, 114, 114, 3) (51, 2)
+Epoch 1/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 2s 182ms/step - dense_1_accuracy: 0.5640 - dense_1_loss: 2.9599 - dense_3_accuracy: 0.5874 - dense_3_loss: 6.2945 - loss: 9.2544 - val_dense_1_accuracy: 0.7255 - val_dense_1_loss: 2.1802 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 8.5010
+Epoch 2/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 155ms/step - dense_1_accuracy: 0.8095 - dense_1_loss: 1.3079 - dense_3_accuracy: 0.6169 - dense_3_loss: 6.1742 - loss: 7.4821 - val_dense_1_accuracy: 0.8824 - val_dense_1_loss: 0.7473 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 7.0681
+Epoch 3/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 154ms/step - dense_1_accuracy: 0.8404 - dense_1_loss: 1.4773 - dense_3_accuracy: 0.6269 - dense_3_loss: 6.0136 - loss: 7.4910 - val_dense_1_accuracy: 0.8039 - val_dense_1_loss: 1.4026 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 7.7234
+Epoch 4/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 154ms/step - dense_1_accuracy: 0.9053 - dense_1_loss: 0.9844 - dense_3_accuracy: 0.5957 - dense_3_loss: 6.5173 - loss: 7.5017 - val_dense_1_accuracy: 0.7843 - val_dense_1_loss: 1.5826 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 7.9034
+Epoch 5/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 155ms/step - dense_1_accuracy: 0.8925 - dense_1_loss: 1.0253 - dense_3_accuracy: 0.5889 - dense_3_loss: 6.6264 - loss: 7.6518 - val_dense_1_accuracy: 0.9412 - val_dense_1_loss: 0.4486 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 6.7694
+Epoch 6/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 158ms/step - dense_1_accuracy: 0.9113 - dense_1_loss: 0.6724 - dense_3_accuracy: 0.5902 - dense_3_loss: 6.6055 - loss: 7.2778 - val_dense_1_accuracy: 0.9020 - val_dense_1_loss: 0.4197 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 6.7405
+Epoch 7/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 157ms/step - dense_1_accuracy: 0.9314 - dense_1_loss: 0.4316 - dense_3_accuracy: 0.6169 - dense_3_loss: 6.1752 - loss: 6.6069 - val_dense_1_accuracy: 0.8627 - val_dense_1_loss: 0.6802 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 7.0010
+Epoch 8/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 157ms/step - dense_1_accuracy: 0.9324 - dense_1_loss: 0.5456 - dense_3_accuracy: 0.6534 - dense_3_loss: 5.5865 - loss: 6.1321 - val_dense_1_accuracy: 0.9412 - val_dense_1_loss: 0.2554 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 6.5763
+Epoch 9/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 157ms/step - dense_1_accuracy: 0.9636 - dense_1_loss: 0.2872 - dense_3_accuracy: 0.6457 - dense_3_loss: 5.7114 - loss: 5.9986 - val_dense_1_accuracy: 0.9020 - val_dense_1_loss: 0.4734 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 6.7942
+Epoch 10/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 159ms/step - dense_1_accuracy: 0.9560 - dense_1_loss: 0.2983 - dense_3_accuracy: 0.6131 - dense_3_loss: 6.2361 - loss: 6.5344 - val_dense_1_accuracy: 0.9412 - val_dense_1_loss: 0.2763 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 6.5971
+Epoch 11/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 158ms/step - dense_1_accuracy: 0.9531 - dense_1_loss: 0.4464 - dense_3_accuracy: 0.6300 - dense_3_loss: 5.9643 - loss: 6.4107 - val_dense_1_accuracy: 0.9020 - val_dense_1_loss: 0.4312 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 6.7520
+Epoch 12/12
+7/7 ━━━━━━━━━━━━━━━━━━━━ 1s 157ms/step - dense_1_accuracy: 0.9399 - dense_1_loss: 0.4565 - dense_3_accuracy: 0.6434 - dense_3_loss: 5.7471 - loss: 6.2036 - val_dense_1_accuracy: 0.9412 - val_dense_1_loss: 0.3816 - val_dense_3_accuracy: 0.6078 - val_dense_3_loss: 6.3208 - val_loss: 6.7025
+[1.6328884000249673, 1.0487757000082638, 1.0424217999971006, 1.0425648000091314, 1.048677900020266, 1.0666012000001501, 1.0602645000035409, 1.0607472000119742, 1.059944299980998, 1.0716428000014275, 1.0656868000223767, 1.0630329999839887]
+13.263248400064185
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+{'dense_1_accuracy': 0.9411764740943909, 'dense_1_loss': 0.38163653016090393, 'dense_3_accuracy': 0.6078431606292725, 'dense_3_loss': 6.320821762084961, 'loss': 6.702458381652832}
+[6.702458381652832, 0.38163653016090393, 6.320821762084961, 0.9411764740943909, 0.6078431606292725]
+Validation loss: 6.702458381652832
+Validation accuracy: 0.6078431606292725
+
+Process finished with exit code 0

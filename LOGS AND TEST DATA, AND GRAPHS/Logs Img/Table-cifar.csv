@@ -1,0 +1,9 @@
+,Model,EpochNumber
+0,RsN20B,90
+1,RsN20M1,15
+2,RsN20M2,15
+3,VGG16B,30
+4,VGG16M1,15
+5,VGG16M2,15
+6,Model Brain,12
+7,Model Dog,8

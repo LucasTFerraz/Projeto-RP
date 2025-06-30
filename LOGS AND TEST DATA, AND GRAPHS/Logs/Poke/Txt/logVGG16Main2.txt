@@ -1,0 +1,243 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\CIFAR10\Hybrid_coding\cifar10_main_vgg16.py
+GPU is available
+['10_Caterpie', '11_Metapod', '12_Butterfree', '13_Weedle', '14_Kakuna', '15_Beedrill', '16_Pidgey', '17_Pidgeotto', '18_Pidgeot', '19_Rattata', '1_Bulbasaur', '20_Raticate', '21_Spearow', '22_Fearow', '23_Ekans', '24_Arbok', '25_Pikachu', '26_Raichu', '27_Sandshrew', '28_Sandslash', '29_Nidoran_female', '2_Ivysaur', '30_Nidorina', '31_Nidoqueen', '32_Nidoran_male', '33_Nidorino', '34_Nidoking', '35_Clefairy', '36_Clefable', '37_Vulpix', '38_Ninetales', '3_Venusaur', '4_Charmander', '5_Charmeleon', '6_Charizard', '7_Squirtle', '8_Wartortle', '9_Blastoise']
+ {'10_Caterpie': 0, '11_Metapod': 1, '12_Butterfree': 2, '13_Weedle': 3, '14_Kakuna': 4, '15_Beedrill': 5, '16_Pidgey': 6, '17_Pidgeotto': 7, '18_Pidgeot': 8, '19_Rattata': 9, '1_Bulbasaur': 10, '20_Raticate': 11, '21_Spearow': 12, '22_Fearow': 13, '23_Ekans': 14, '24_Arbok': 15, '25_Pikachu': 16, '26_Raichu': 17, '27_Sandshrew': 18, '28_Sandslash': 19, '29_Nidoran_female': 20, '2_Ivysaur': 21, '30_Nidorina': 22, '31_Nidoqueen': 23, '32_Nidoran_male': 24, '33_Nidorino': 25, '34_Nidoking': 26, '35_Clefairy': 27, '36_Clefable': 28, '37_Vulpix': 29, '38_Ninetales': 30, '3_Venusaur': 31, '4_Charmander': 32, '5_Charmeleon': 33, '6_Charizard': 34, '7_Squirtle': 35, '8_Wartortle': 36, '9_Blastoise': 37}
+5066
+1267
+E:\Projects\Python\RP\Hybrid-Coding-SNN-main\exp/Poke/
+Accuracy of pre-trained model 0.6748224151539068
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+VGG16(
+  (conv1): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv2): Sequential(
+    (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv3): Sequential(
+    (0): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv4): Sequential(
+    (0): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool4): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv5): Sequential(
+    (0): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv6): Sequential(
+    (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv7): Sequential(
+    (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool7): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv8): Sequential(
+    (0): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv9): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv10): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool10): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv11): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv12): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv13): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool13): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (fc14): Sequential(
+    (0): Linear(in_features=512, out_features=4096, bias=True)
+    (1): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (fc15): Sequential(
+    (0): Linear(in_features=4096, out_features=4096, bias=True)
+    (1): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (fc16): Sequential(
+    (0): Linear(in_features=4096, out_features=38, bias=True)
+  )
+)
+Accuracy of BN folded ANN model 0.6748224151539068
+Accuracy of converted SNN model tensor([0.0260, 0.0260, 0.0260, 0.0260, 0.0260, 0.0513, 0.0552, 0.0726, 0.0994,
+        0.1271, 0.1579, 0.1910, 0.2265, 0.2526, 0.2865, 0.3244],
+       device='cuda:0')
+Resume the LTL-finetuned Model
+Stage1 Test Accuracy: tensor([0.0260, 0.3804, 0.5588, 0.6006, 0.6212, 0.6354, 0.6448, 0.6440, 0.6464,
+        0.6448, 0.6472, 0.6504, 0.6472, 0.6480, 0.6488, 0.6480],
+       device='cuda:0')
+------ Stage 2 - Training Output Layer ------
+Train loss 0:  5.930336209962952
+Train loss:  2.89139690264216 0.07377120290162428
+Train correct / total:  53 5066
+Stage2, Epoch 1 takes 0m 40s
+Train Accuracy: 0.3437, Loss: 5.9303
+Test Accuracy: 0.5114, Test spiking time: 8.1973
+Saving the model.
+Accuracy: 0.5114, Average spike time: 8.1973, Best acc: 0.5114, Best acc spike time: 8.1973
+Train loss 0:  2.1846577468908057
+Train loss:  1.090953599731877 0.0013752719694924242
+Train correct / total:  53 5066
+Stage2, Epoch 2 takes 0m 41s
+Train Accuracy: 0.8877, Loss: 2.1847
+Test Accuracy: 0.6212, Test spiking time: 6.2415
+Saving the model.
+Accuracy: 0.6212, Average spike time: 6.2415, Best acc: 0.6212, Best acc spike time: 6.2415
+Train loss 0:  1.6941775555880565
+Train loss:  0.8380049073471213 0.009083871307940979
+Train correct / total:  53 5066
+Stage2, Epoch 3 takes 0m 40s
+Train Accuracy: 0.9550, Loss: 1.6942
+Test Accuracy: 0.6227, Test spiking time: 5.9171
+Saving the model.
+Accuracy: 0.6227, Average spike time: 5.9171, Best acc: 0.6227, Best acc spike time: 5.9171
+Train loss 0:  1.551889864903576
+Train loss:  0.7586521922417406 0.017292740016753943
+Train correct / total:  53 5066
+Stage2, Epoch 4 takes 0m 40s
+Train Accuracy: 0.9611, Loss: 1.5519
+Test Accuracy: 0.6251, Test spiking time: 5.4807
+Saving the model.
+Accuracy: 0.6251, Average spike time: 5.4807, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.4648661501002762
+Train loss:  0.7085574944064302 0.023875580516309954
+Train correct / total:  53 5066
+Stage2, Epoch 5 takes 0m 40s
+Train Accuracy: 0.9633, Loss: 1.4649
+Test Accuracy: 0.6243, Test spiking time: 4.6732
+Accuracy: 0.6243, Average spike time: 4.6732, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.396268293542682
+Train loss:  0.6710025004620822 0.027131647363586246
+Train correct / total:  53 5066
+Stage2, Epoch 6 takes 0m 40s
+Train Accuracy: 0.9645, Loss: 1.3963
+Test Accuracy: 0.6243, Test spiking time: 4.8824
+Accuracy: 0.6243, Average spike time: 4.8824, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.3220334390424333
+Train loss:  0.6321691836950913 0.02884753858494871
+Train correct / total:  53 5066
+Stage2, Epoch 7 takes 0m 40s
+Train Accuracy: 0.9655, Loss: 1.3220
+Test Accuracy: 0.6219, Test spiking time: 4.1539
+Accuracy: 0.6219, Average spike time: 4.1539, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.2722830569969032
+Train loss:  0.6055497943230395 0.030591733542815695
+Train correct / total:  53 5066
+Stage2, Epoch 8 takes 0m 40s
+Train Accuracy: 0.9655, Loss: 1.2723
+Test Accuracy: 0.6212, Test spiking time: 4.2415
+Accuracy: 0.6212, Average spike time: 4.2415, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.2289285367389895
+Train loss:  0.5821688968055653 0.03229537265340112
+Train correct / total:  53 5066
+Stage2, Epoch 9 takes 0m 40s
+Train Accuracy: 0.9660, Loss: 1.2289
+Test Accuracy: 0.6251, Test spiking time: 4.1878
+Accuracy: 0.6251, Average spike time: 4.1878, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.1902800044923458
+Train loss:  0.5596233673815457 0.03551663374001125
+Train correct / total:  53 5066
+Stage2, Epoch 10 takes 0m 40s
+Train Accuracy: 0.9662, Loss: 1.1903
+Test Accuracy: 0.6235, Test spiking time: 4.1468
+Accuracy: 0.6235, Average spike time: 4.1468, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.1638561172305413
+Train loss:  0.539152573864415 0.0427754845751344
+Train correct / total:  53 5066
+Stage2, Epoch 11 takes 0m 40s
+Train Accuracy: 0.9662, Loss: 1.1639
+Test Accuracy: 0.6251, Test spiking time: 4.1184
+Accuracy: 0.6251, Average spike time: 4.1184, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.1098203681549936
+Train loss:  0.5167533063663626 0.03815687855459609
+Train correct / total:  53 5066
+Stage2, Epoch 12 takes 0m 40s
+Train Accuracy: 0.9672, Loss: 1.1098
+Test Accuracy: 0.6219, Test spiking time: 3.9629
+Accuracy: 0.6219, Average spike time: 3.9629, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.073260652569105
+Train loss:  0.5031987929119254 0.03343153210743418
+Train correct / total:  53 5066
+Stage2, Epoch 13 takes 0m 40s
+Train Accuracy: 0.9686, Loss: 1.0733
+Test Accuracy: 0.6243, Test spiking time: 3.9582
+Accuracy: 0.6243, Average spike time: 3.9582, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.0625021266487409
+Train loss:  0.49561800596848976 0.03563305951725199
+Train correct / total:  53 5066
+Stage2, Epoch 14 takes 0m 40s
+Train Accuracy: 0.9680, Loss: 1.0625
+Test Accuracy: 0.6243, Test spiking time: 3.9448
+Accuracy: 0.6243, Average spike time: 3.9448, Best acc: 0.6251, Best acc spike time: 5.4807
+Train loss 0:  1.0442212741329986
+Train loss:  0.48689628153477077 0.03521435553172849
+Train correct / total:  53 5066
+Stage2, Epoch 15 takes 0m 40s
+Train Accuracy: 0.9670, Loss: 1.0442
+Test Accuracy: 0.6227, Test spiking time: 3.9392
+Accuracy: 0.6227, Average spike time: 3.9392, Best acc: 0.6251, Best acc spike time: 5.4807
+
+Process finished with exit code 0

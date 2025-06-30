@@ -1,0 +1,150 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\Model3.py
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=Inception_V3_Weights.IMAGENET1K_V1`. You can also use `weights=Inception_V3_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+['10_Caterpie', '11_Metapod', '12_Butterfree', '13_Weedle', '14_Kakuna', '15_Beedrill', '16_Pidgey', '17_Pidgeotto', '18_Pidgeot', '19_Rattata', '1_Bulbasaur', '20_Raticate', '21_Spearow', '22_Fearow', '23_Ekans', '24_Arbok', '25_Pikachu', '26_Raichu', '27_Sandshrew', '28_Sandslash', '29_Nidoran_female', '2_Ivysaur', '30_Nidorina', '31_Nidoqueen', '32_Nidoran_male', '33_Nidorino', '34_Nidoking', '35_Clefairy', '36_Clefable', '37_Vulpix', '38_Ninetales', '3_Venusaur', '4_Charmander', '5_Charmeleon', '6_Charizard', '7_Squirtle', '8_Wartortle', '9_Blastoise']
+ {'10_Caterpie': 0, '11_Metapod': 1, '12_Butterfree': 2, '13_Weedle': 3, '14_Kakuna': 4, '15_Beedrill': 5, '16_Pidgey': 6, '17_Pidgeotto': 7, '18_Pidgeot': 8, '19_Rattata': 9, '1_Bulbasaur': 10, '20_Raticate': 11, '21_Spearow': 12, '22_Fearow': 13, '23_Ekans': 14, '24_Arbok': 15, '25_Pikachu': 16, '26_Raichu': 17, '27_Sandshrew': 18, '28_Sandslash': 19, '29_Nidoran_female': 20, '2_Ivysaur': 21, '30_Nidorina': 22, '31_Nidoqueen': 23, '32_Nidoran_male': 24, '33_Nidorino': 25, '34_Nidoking': 26, '35_Clefairy': 27, '36_Clefable': 28, '37_Vulpix': 29, '38_Ninetales': 30, '3_Venusaur': 31, '4_Charmander': 32, '5_Charmeleon': 33, '6_Charizard': 34, '7_Squirtle': 35, '8_Wartortle': 36, '9_Blastoise': 37}
+5066
+1267
+<torch.utils.data.dataset.Subset object at 0x00000246B18B2510>
+==================== Epoch:  1 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.2507 | Train Loss: 240.1183 | Validation acc: 0.4988 | Validation Loss: 41.4790
+Time: 79.92708230018616
+==================== Epoch:  2 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.4732 | Train Loss: 157.0051 | Validation acc: 0.5296 | Validation Loss: 38.0555
+Time: 78.74548196792603
+==================== Epoch:  3 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.5186 | Train Loss: 142.1118 | Validation acc: 0.5738 | Validation Loss: 36.2135
+Time: 78.83183860778809
+==================== Epoch:  4 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.5470 | Train Loss: 131.4160 | Validation acc: 0.5612 | Validation Loss: 38.8224
+Time: 78.75841474533081
+==================== Epoch:  5 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.5555 | Train Loss: 126.2760 | Validation acc: 0.5983 | Validation Loss: 34.9117
+Time: 79.37892270088196
+==================== Epoch:  6 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.5752 | Train Loss: 119.5995 | Validation acc: 0.5888 | Validation Loss: 31.5821
+Time: 78.76851034164429
+==================== Epoch:  7 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.5871 | Train Loss: 118.7751 | Validation acc: 0.5833 | Validation Loss: 33.3012
+Time: 79.0149872303009
+==================== Epoch:  8 ====================
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\PIL\Image.py:1054: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train acc: 0.6226 | Train Loss: 108.3126 | Validation acc: 0.6022 | Validation Loss: 32.7555
+Time: 79.13623666763306
+
+Process finished with exit code 0

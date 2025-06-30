@@ -1,0 +1,38 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\Model3.py
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=Inception_V3_Weights.IMAGENET1K_V1`. You can also use `weights=Inception_V3_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+['no', 'yes']
+ {'no': 0, 'yes': 1}
+202
+51
+<torch.utils.data.dataset.Subset object at 0x00000185B6C12510>
+==================== Epoch:  1 ====================
+Train acc: 0.1386 | Train Loss: 8.4636 | Validation acc: 0.7647 | Validation Loss: 1.4165
+Time: 22.18314027786255
+==================== Epoch:  2 ====================
+Train acc: 0.6089 | Train Loss: 2.7529 | Validation acc: 0.7647 | Validation Loss: 0.4865
+Time: 21.471185445785522
+==================== Epoch:  3 ====================
+Train acc: 0.6832 | Train Loss: 1.2417 | Validation acc: 0.5490 | Validation Loss: 0.7349
+Time: 21.39742922782898
+==================== Epoch:  4 ====================
+Train acc: 0.7574 | Train Loss: 0.9529 | Validation acc: 0.7843 | Validation Loss: 0.4984
+Time: 21.37160086631775
+==================== Epoch:  5 ====================
+Train acc: 0.8465 | Train Loss: 0.7143 | Validation acc: 0.8235 | Validation Loss: 0.3415
+Time: 21.39953923225403
+==================== Epoch:  6 ====================
+Train acc: 0.8119 | Train Loss: 0.7786 | Validation acc: 0.8627 | Validation Loss: 0.3477
+Time: 21.39754819869995
+==================== Epoch:  7 ====================
+Train acc: 0.9208 | Train Loss: 0.5351 | Validation acc: 0.7451 | Validation Loss: 0.4546
+Time: 21.366334199905396
+==================== Epoch:  8 ====================
+Train acc: 0.8465 | Train Loss: 0.6625 | Validation acc: 0.7255 | Validation Loss: 0.4582
+Time: 21.40562343597412
+
+Process finished with exit code 0

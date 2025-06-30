@@ -1,0 +1,426 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\CIFAR10\ANN_baseline\cifar10_resNet20_base_model.py 
+E:\Projects\Python\RP\Hybrid-Coding-SNN-main
+['irish_wolfhound', 'scottish_deerhound']
+ {'irish_wolfhound': 0, 'scottish_deerhound': 1}
+145
+36
+2048
+GPU is available
+ResNet20(
+  (conv1): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+  )
+  (conv2): Sequential(
+    (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+  )
+  (conv3): Sequential(
+    (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+  )
+  (layer4): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential()
+  )
+  (layer5): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential()
+  )
+  (layer6): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential(
+      (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (layer7): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential()
+  )
+  (layer8): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential(
+      (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (layer9): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential()
+  )
+  (layer10): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential(
+      (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+      (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (layer11): BasicBlock(
+    (conv1): Sequential(
+      (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (conv2): Sequential(
+      (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+    (shortcut): Sequential()
+  )
+  (pool12): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (fc13): Sequential(
+    (0): Linear(in_features=2048, out_features=16384, bias=True)
+    (1): ReLU(inplace=True)
+  )
+  (linear): Linear(in_features=16384, out_features=2, bias=False)
+)
+Epoch 1 takes 0m 2s
+Train Accuracy: 0.510345, Loss: 0.695494
+Test Accuracy: 0.416667
+Saving the model.
+Epoch 2 takes 0m 1s
+Train Accuracy: 0.524138, Loss: 0.691653
+Test Accuracy: 0.583333
+Saving the model.
+Epoch 3 takes 0m 1s
+Train Accuracy: 0.489655, Loss: 0.692076
+Test Accuracy: 0.583333
+Epoch 4 takes 0m 1s
+Train Accuracy: 0.572414, Loss: 0.688341
+Test Accuracy: 0.416667
+Epoch 5 takes 0m 1s
+Train Accuracy: 0.600000, Loss: 0.677423
+Test Accuracy: 0.611111
+Saving the model.
+Epoch 6 takes 0m 1s
+Train Accuracy: 0.537931, Loss: 0.670592
+Test Accuracy: 0.500000
+Epoch 7 takes 0m 1s
+Train Accuracy: 0.724138, Loss: 0.619990
+Test Accuracy: 0.500000
+Epoch 8 takes 0m 1s
+Train Accuracy: 0.641379, Loss: 0.628396
+Test Accuracy: 0.472222
+Epoch 9 takes 0m 1s
+Train Accuracy: 0.703448, Loss: 0.545761
+Test Accuracy: 0.611111
+Epoch 10 takes 0m 1s
+Train Accuracy: 0.765517, Loss: 0.495913
+Test Accuracy: 0.555556
+Epoch 11 takes 0m 1s
+Train Accuracy: 0.751724, Loss: 0.672465
+Test Accuracy: 0.611111
+Epoch 12 takes 0m 1s
+Train Accuracy: 0.717241, Loss: 0.486548
+Test Accuracy: 0.638889
+Saving the model.
+Epoch 13 takes 0m 1s
+Train Accuracy: 0.834483, Loss: 0.511182
+Test Accuracy: 0.527778
+Epoch 14 takes 0m 1s
+Train Accuracy: 0.937931, Loss: 0.289199
+Test Accuracy: 0.555556
+Epoch 15 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.088378
+Test Accuracy: 0.638889
+Epoch 16 takes 0m 1s
+Train Accuracy: 0.993103, Loss: 0.027642
+Test Accuracy: 0.694444
+Saving the model.
+Epoch 17 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.014470
+Test Accuracy: 0.694444
+Epoch 18 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.002491
+Test Accuracy: 0.638889
+Epoch 19 takes 0m 1s
+Train Accuracy: 0.993103, Loss: 0.030112
+Test Accuracy: 0.666667
+Epoch 20 takes 0m 1s
+Train Accuracy: 0.903448, Loss: 0.228722
+Test Accuracy: 0.638889
+Epoch 21 takes 0m 1s
+Train Accuracy: 0.896552, Loss: 0.624582
+Test Accuracy: 0.638889
+Epoch 22 takes 0m 1s
+Train Accuracy: 0.758621, Loss: 1.131483
+Test Accuracy: 0.583333
+Epoch 23 takes 0m 1s
+Train Accuracy: 0.889655, Loss: 0.417161
+Test Accuracy: 0.527778
+Epoch 24 takes 0m 1s
+Train Accuracy: 0.820690, Loss: 0.398558
+Test Accuracy: 0.500000
+Epoch 25 takes 0m 1s
+Train Accuracy: 0.806897, Loss: 0.401131
+Test Accuracy: 0.527778
+Epoch 26 takes 0m 1s
+Train Accuracy: 0.965517, Loss: 0.230172
+Test Accuracy: 0.555556
+Epoch 27 takes 0m 1s
+Train Accuracy: 0.986207, Loss: 0.057800
+Test Accuracy: 0.555556
+Epoch 28 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.001109
+Test Accuracy: 0.500000
+Epoch 29 takes 0m 1s
+Train Accuracy: 0.986207, Loss: 0.037677
+Test Accuracy: 0.555556
+Epoch 30 takes 0m 1s
+Train Accuracy: 0.993103, Loss: 0.041996
+Test Accuracy: 0.611111
+Epoch 31 takes 0m 1s
+Train Accuracy: 0.993103, Loss: 0.024658
+Test Accuracy: 0.472222
+Epoch 32 takes 0m 1s
+Train Accuracy: 0.972414, Loss: 0.149977
+Test Accuracy: 0.555556
+Epoch 33 takes 0m 1s
+Train Accuracy: 0.972414, Loss: 0.082581
+Test Accuracy: 0.555556
+Epoch 34 takes 0m 1s
+Train Accuracy: 0.944828, Loss: 0.211469
+Test Accuracy: 0.555556
+Epoch 35 takes 0m 1s
+Train Accuracy: 0.944828, Loss: 0.263369
+Test Accuracy: 0.583333
+Epoch 36 takes 0m 1s
+Train Accuracy: 0.931034, Loss: 0.358112
+Test Accuracy: 0.638889
+Epoch 37 takes 0m 1s
+Train Accuracy: 0.944828, Loss: 0.240525
+Test Accuracy: 0.500000
+Epoch 38 takes 0m 1s
+Train Accuracy: 0.958621, Loss: 0.131765
+Test Accuracy: 0.444444
+Epoch 39 takes 0m 1s
+Train Accuracy: 0.993103, Loss: 0.051280
+Test Accuracy: 0.555556
+Epoch 40 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.015961
+Test Accuracy: 0.583333
+Epoch 41 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.003484
+Test Accuracy: 0.583333
+Epoch 42 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.002763
+Test Accuracy: 0.555556
+Epoch 43 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.003156
+Test Accuracy: 0.555556
+Epoch 44 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000311
+Test Accuracy: 0.583333
+Epoch 45 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000970
+Test Accuracy: 0.583333
+Epoch 46 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000232
+Test Accuracy: 0.583333
+Epoch 47 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000268
+Test Accuracy: 0.583333
+Epoch 48 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000126
+Test Accuracy: 0.583333
+Epoch 49 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000205
+Test Accuracy: 0.555556
+Epoch 50 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000149
+Test Accuracy: 0.583333
+Epoch 51 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000653
+Test Accuracy: 0.583333
+Epoch 52 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000224
+Test Accuracy: 0.583333
+Epoch 53 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000157
+Test Accuracy: 0.583333
+Epoch 54 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000178
+Test Accuracy: 0.583333
+Epoch 55 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000148
+Test Accuracy: 0.583333
+Epoch 56 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000099
+Test Accuracy: 0.583333
+Epoch 57 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000169
+Test Accuracy: 0.583333
+Epoch 58 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000104
+Test Accuracy: 0.583333
+Epoch 59 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000129
+Test Accuracy: 0.583333
+Epoch 60 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000169
+Test Accuracy: 0.555556
+Epoch 61 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000248
+Test Accuracy: 0.583333
+Epoch 62 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000119
+Test Accuracy: 0.555556
+Epoch 63 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000108
+Test Accuracy: 0.555556
+Epoch 64 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000182
+Test Accuracy: 0.583333
+Epoch 65 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000218
+Test Accuracy: 0.583333
+Epoch 66 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000094
+Test Accuracy: 0.583333
+Epoch 67 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000106
+Test Accuracy: 0.583333
+Epoch 68 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000206
+Test Accuracy: 0.583333
+Epoch 69 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000118
+Test Accuracy: 0.583333
+Epoch 70 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000128
+Test Accuracy: 0.583333
+Epoch 71 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000072
+Test Accuracy: 0.583333
+Epoch 72 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000139
+Test Accuracy: 0.583333
+Epoch 73 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000126
+Test Accuracy: 0.583333
+Epoch 74 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000105
+Test Accuracy: 0.583333
+Epoch 75 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000099
+Test Accuracy: 0.583333
+Epoch 76 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000094
+Test Accuracy: 0.583333
+Epoch 77 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000111
+Test Accuracy: 0.583333
+Epoch 78 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000095
+Test Accuracy: 0.583333
+Epoch 79 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000083
+Test Accuracy: 0.583333
+Epoch 80 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000098
+Test Accuracy: 0.583333
+Epoch 81 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000162
+Test Accuracy: 0.583333
+Epoch 82 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000321
+Test Accuracy: 0.555556
+Epoch 83 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000104
+Test Accuracy: 0.583333
+Epoch 84 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000092
+Test Accuracy: 0.583333
+Epoch 85 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000097
+Test Accuracy: 0.583333
+Epoch 86 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000148
+Test Accuracy: 0.583333
+Epoch 87 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000113
+Test Accuracy: 0.583333
+Epoch 88 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000088
+Test Accuracy: 0.583333
+Epoch 89 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000132
+Test Accuracy: 0.583333
+Epoch 90 takes 0m 1s
+Train Accuracy: 1.000000, Loss: 0.000110
+Test Accuracy: 0.583333
+Best Test Accuracy: 0.694444
+end
+
+Process finished with exit code 0

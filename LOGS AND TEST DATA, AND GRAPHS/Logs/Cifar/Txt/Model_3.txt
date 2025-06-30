@@ -1,0 +1,49 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\Model3.py
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=Inception_V3_Weights.IMAGENET1K_V1`. You can also use `weights=Inception_V3_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+100%|██████████| 170M/170M [01:12<00:00, 2.35MB/s]
+15000 (15000, 32, 32, 3)
+3000 (3000, 32, 32, 3)
+(3000, 32, 32, 3)
+Dataset SubLoader
+    Number of datapoints: 15000
+    Root location: CIFAR10/ANN_baseline/Dataset
+    Split: Train
+    StandardTransform
+Transform: Compose(
+               RandomCrop(size=(32, 32), padding=4)
+               RandomHorizontalFlip(p=0.5)
+               ToTensor()
+               Normalize(mean=(0.4914, 0.4822, 0.4465), std=(0.2023, 0.1994, 0.201))
+               Resize(size=(75, 75), interpolation=bilinear, max_size=None, antialias=True)
+           )
+==================== Epoch:  1 ====================
+Train acc: 0.6181 | Train Loss: 114.3228 | Validation acc: 0.7103 | Validation Loss: 16.6517
+Time: 83.87549662590027
+==================== Epoch:  2 ====================
+Train acc: 0.6391 | Train Loss: 108.5345 | Validation acc: 0.7490 | Validation Loss: 14.7129
+Time: 81.79820251464844
+==================== Epoch:  3 ====================
+Train acc: 0.6565 | Train Loss: 105.5104 | Validation acc: 0.7487 | Validation Loss: 14.9156
+Time: 79.9839723110199
+==================== Epoch:  4 ====================
+Train acc: 0.6448 | Train Loss: 112.6118 | Validation acc: 0.7297 | Validation Loss: 15.8082
+Time: 79.97508096694946
+==================== Epoch:  5 ====================
+Train acc: 0.6499 | Train Loss: 109.4001 | Validation acc: 0.7337 | Validation Loss: 15.8733
+Time: 80.6717643737793
+==================== Epoch:  6 ====================
+Train acc: 0.6444 | Train Loss: 113.8105 | Validation acc: 0.7443 | Validation Loss: 16.1985
+Time: 81.73973178863525
+==================== Epoch:  7 ====================
+Train acc: 0.6542 | Train Loss: 106.4011 | Validation acc: 0.6893 | Validation Loss: 20.0705
+Time: 80.57287240028381
+==================== Epoch:  8 ====================
+Train acc: 0.6629 | Train Loss: 103.1611 | Validation acc: 0.7380 | Validation Loss: 16.5830
+Time: 80.18262529373169
+
+Process finished with exit code 0

@@ -1,0 +1,220 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\CIFAR10\Hybrid_coding\cifar10_main_vgg16.py
+GPU is available
+Accuracy of pre-trained model 0.916
+VGG16(
+  (conv1): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv2): Sequential(
+    (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv3): Sequential(
+    (0): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv4): Sequential(
+    (0): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool4): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv5): Sequential(
+    (0): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv6): Sequential(
+    (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv7): Sequential(
+    (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool7): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv8): Sequential(
+    (0): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv9): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv10): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool10): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (conv11): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv12): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (conv13): Sequential(
+    (0): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): StraightThrough()
+    (2): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (pool13): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (fc14): Sequential(
+    (0): Linear(in_features=512, out_features=4096, bias=True)
+    (1): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (fc15): Sequential(
+    (0): Linear(in_features=4096, out_features=4096, bias=True)
+    (1): ScaledNeuron(
+      (neuron): BurstNode()
+    )
+  )
+  (fc16): Sequential(
+    (0): Linear(in_features=4096, out_features=10, bias=True)
+  )
+)
+Accuracy of BN folded ANN model 0.9159
+Accuracy of converted SNN model tensor([0.1000, 0.1000, 0.1000, 0.1000, 0.1000, 0.1006, 0.1111, 0.1480, 0.2280,
+        0.3276, 0.4300, 0.5170, 0.5874, 0.6351, 0.6711, 0.6969],
+       device='cuda:0')
+------ Stage 1 - Training Hidden Layers ------
+Stage1, Epoch 1 takes 24m 1s
+Train Accuracy: 0.664080, Loss: 4.753396
+Test Accuracy: tensor([0.1000, 0.1270, 0.6803, 0.7811, 0.8084, 0.8252, 0.8363, 0.8429, 0.8479,
+        0.8519, 0.8548, 0.8572, 0.8598, 0.8609, 0.8613, 0.8627],
+       device='cuda:0')
+Saving the model.
+Best Test Accuracy: 0.862700
+Stage1, Epoch 2 takes 22m 30s
+Train Accuracy: 0.743500, Loss: 2.886904
+Test Accuracy: tensor([0.1000, 0.1967, 0.7605, 0.8157, 0.8307, 0.8407, 0.8483, 0.8518, 0.8553,
+        0.8585, 0.8594, 0.8613, 0.8624, 0.8628, 0.8633, 0.8637],
+       device='cuda:0')
+Saving the model.
+Best Test Accuracy: 0.863700
+Stage1, Epoch 3 takes 24m 52s
+Train Accuracy: 0.758540, Loss: 2.032737
+Test Accuracy: tensor([0.1000, 0.2504, 0.8275, 0.8627, 0.8706, 0.8750, 0.8781, 0.8793, 0.8803,
+        0.8805, 0.8812, 0.8812, 0.8822, 0.8814, 0.8824, 0.8820],
+       device='cuda:0')
+Saving the model.
+Best Test Accuracy: 0.882000
+Stage1, Epoch 4 takes 22m 33s
+Train Accuracy: 0.772400, Loss: 1.535712
+Test Accuracy: tensor([0.1000, 0.3125, 0.8454, 0.8716, 0.8803, 0.8831, 0.8848, 0.8873, 0.8888,
+        0.8898, 0.8908, 0.8908, 0.8903, 0.8905, 0.8914, 0.8919],
+       device='cuda:0')
+Saving the model.
+Best Test Accuracy: 0.891900
+Stage1, Epoch 5 takes 21m 31s
+Train Accuracy: 0.771040, Loss: 1.338554
+Test Accuracy: tensor([0.1000, 0.3290, 0.8486, 0.8763, 0.8839, 0.8857, 0.8880, 0.8882, 0.8888,
+        0.8890, 0.8885, 0.8883, 0.8887, 0.8889, 0.8883, 0.8874],
+       device='cuda:0')
+Best Test Accuracy: 0.891900
+Stage1, Epoch 6 takes 21m 38s
+Train Accuracy: 0.783200, Loss: 1.199194
+Test Accuracy: tensor([0.1000, 0.4340, 0.8622, 0.8758, 0.8815, 0.8836, 0.8844, 0.8850, 0.8862,
+        0.8857, 0.8851, 0.8849, 0.8855, 0.8858, 0.8856, 0.8856],
+       device='cuda:0')
+Best Test Accuracy: 0.891900
+Stage1, Epoch 7 takes 21m 47s
+Train Accuracy: 0.785000, Loss: 1.124911
+Test Accuracy: tensor([0.1000, 0.4554, 0.8733, 0.8842, 0.8865, 0.8898, 0.8881, 0.8869, 0.8863,
+        0.8851, 0.8851, 0.8853, 0.8848, 0.8854, 0.8846, 0.8847],
+       device='cuda:0')
+Best Test Accuracy: 0.891900
+Stage1, Epoch 8 takes 24m 2s
+Train Accuracy: 0.792260, Loss: 1.034658
+Test Accuracy: tensor([0.1000, 0.5096, 0.8663, 0.8758, 0.8802, 0.8838, 0.8856, 0.8869, 0.8881,
+        0.8879, 0.8883, 0.8891, 0.8896, 0.8900, 0.8904, 0.8915],
+       device='cuda:0')
+Best Test Accuracy: 0.891900
+Stage1, Epoch 9 takes 20m 55s
+Train Accuracy: 0.799460, Loss: 0.985397
+Test Accuracy: tensor([0.1000, 0.5802, 0.8764, 0.8908, 0.8944, 0.8952, 0.8975, 0.8965, 0.8970,
+        0.8970, 0.8978, 0.8975, 0.8980, 0.8979, 0.8977, 0.8976],
+       device='cuda:0')
+Saving the model.
+Best Test Accuracy: 0.897600
+Stage1, Epoch 10 takes 23m 53s
+Train Accuracy: 0.798600, Loss: 0.950011
+Test Accuracy: tensor([0.1000, 0.5885, 0.8550, 0.8633, 0.8682, 0.8713, 0.8737, 0.8748, 0.8748,
+        0.8763, 0.8764, 0.8766, 0.8769, 0.8777, 0.8779, 0.8784],
+       device='cuda:0')
+Best Test Accuracy: 0.897600
+Stage1, Epoch 11 takes 21m 32s
+Train Accuracy: 0.800780, Loss: 0.920558
+Test Accuracy: tensor([0.1000, 0.5929, 0.8603, 0.8719, 0.8776, 0.8808, 0.8846, 0.8874, 0.8881,
+        0.8881, 0.8897, 0.8896, 0.8905, 0.8899, 0.8894, 0.8900],
+       device='cuda:0')
+Best Test Accuracy: 0.897600
+Stage1, Epoch 12 takes 20m 52s
+Train Accuracy: 0.807120, Loss: 0.872309
+Test Accuracy: tensor([0.1000, 0.6257, 0.8687, 0.8736, 0.8779, 0.8820, 0.8834, 0.8855, 0.8875,
+        0.8886, 0.8895, 0.8904, 0.8906, 0.8908, 0.8908, 0.8911],
+       device='cuda:0')
+Best Test Accuracy: 0.897600
+
+Stage1, Epoch 13 takes 21m 46s
+Train Accuracy: 0.800680, Loss: 0.904489
+Test Accuracy: tensor([0.1000, 0.6956, 0.8802, 0.8914, 0.8966, 0.8974, 0.8987, 0.8983, 0.8995,
+        0.8996, 0.8999, 0.9001, 0.8999, 0.8998, 0.8993, 0.8990],
+       device='cuda:0')
+Saving the model.
+Best Test Accuracy: 0.899000
+
+Stage1, Epoch 14 takes 24m 24s
+Train Accuracy: 0.808580, Loss: 0.845783
+Test Accuracy: tensor([0.1000, 0.6980, 0.8704, 0.8812, 0.8867, 0.8889, 0.8917, 0.8925, 0.8930,
+        0.8936, 0.8940, 0.8950, 0.8955, 0.8960, 0.8960, 0.8956],
+       device='cuda:0')
+Best Test Accuracy: 0.899000
+Stage1, Epoch 15 takes 22m 59s
+Train Accuracy: 0.810100, Loss: 0.825190
+Test Accuracy: tensor([0.1000, 0.6989, 0.8698, 0.8836, 0.8885, 0.8911, 0.8938, 0.8955, 0.8964,
+        0.8974, 0.8975, 0.8983, 0.9001, 0.9001, 0.9011, 0.9007],
+       device='cuda:0')
+Saving the model.
+Best Test Accuracy: 0.900700

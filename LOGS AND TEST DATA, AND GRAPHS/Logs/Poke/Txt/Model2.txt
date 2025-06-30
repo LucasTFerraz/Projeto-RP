@@ -1,0 +1,79 @@
+E:\Users\lucas\AppData\Local\Programs\Python\Python313\python.exe E:\Projects\Python\RP\Hybrid-Coding-SNN-main\Model2.py
+['10_Caterpie', '11_Metapod', '12_Butterfree', '13_Weedle', '14_Kakuna', '15_Beedrill', '16_Pidgey', '17_Pidgeotto', '18_Pidgeot', '19_Rattata', '1_Bulbasaur', '20_Raticate', '21_Spearow', '22_Fearow', '23_Ekans', '24_Arbok', '25_Pikachu', '26_Raichu', '27_Sandshrew', '28_Sandslash', '29_Nidoran_female', '2_Ivysaur', '30_Nidorina', '31_Nidoqueen', '32_Nidoran_male', '33_Nidorino', '34_Nidoking', '35_Clefairy', '36_Clefable', '37_Vulpix', '38_Ninetales', '3_Venusaur', '4_Charmander', '5_Charmeleon', '6_Charizard', '7_Squirtle', '8_Wartortle', '9_Blastoise']
+(5067, 75, 75, 3) (5067, 38) (1267, 75, 75, 3) (1267, 38)
+Epoch 1/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.1219 - dense_1_loss: 12.4664 - dense_3_accuracy: 0.0248 - dense_3_loss: 15.7151 - loss: 28.1815 - val_dense_1_accuracy: 0.3639 - val_dense_1_loss: 7.1679 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 22.9043
+Epoch 2/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 144ms/step - dense_1_accuracy: 0.3972 - dense_1_loss: 6.2667 - dense_3_accuracy: 0.0234 - dense_3_loss: 15.7410 - loss: 22.0077 - val_dense_1_accuracy: 0.5375 - val_dense_1_loss: 2.6738 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 18.4102
+Epoch 3/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.5665 - dense_1_loss: 2.5262 - dense_3_accuracy: 0.0233 - dense_3_loss: 15.7418 - loss: 18.2680 - val_dense_1_accuracy: 0.5856 - val_dense_1_loss: 1.8177 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.5542
+Epoch 4/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.6788 - dense_1_loss: 1.4118 - dense_3_accuracy: 0.0232 - dense_3_loss: 15.7435 - loss: 17.1553 - val_dense_1_accuracy: 0.6148 - val_dense_1_loss: 1.7008 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.4373
+Epoch 5/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.7385 - dense_1_loss: 1.0025 - dense_3_accuracy: 0.0290 - dense_3_loss: 15.6499 - loss: 16.6524 - val_dense_1_accuracy: 0.6354 - val_dense_1_loss: 1.5973 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.3337
+Epoch 6/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.8195 - dense_1_loss: 0.6943 - dense_3_accuracy: 0.0234 - dense_3_loss: 15.7409 - loss: 16.4352 - val_dense_1_accuracy: 0.6535 - val_dense_1_loss: 1.5747 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.3111
+Epoch 7/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.8442 - dense_1_loss: 0.5790 - dense_3_accuracy: 0.0255 - dense_3_loss: 15.7077 - loss: 16.2867 - val_dense_1_accuracy: 0.6606 - val_dense_1_loss: 1.5396 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.2760
+Epoch 8/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.8554 - dense_1_loss: 0.5367 - dense_3_accuracy: 0.0337 - dense_3_loss: 15.5748 - loss: 16.1115 - val_dense_1_accuracy: 0.6701 - val_dense_1_loss: 1.5801 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.3165
+Epoch 9/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.8790 - dense_1_loss: 0.4354 - dense_3_accuracy: 0.0291 - dense_3_loss: 15.6498 - loss: 16.0852 - val_dense_1_accuracy: 0.6622 - val_dense_1_loss: 1.6070 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.3434
+Epoch 10/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.8857 - dense_1_loss: 0.4220 - dense_3_accuracy: 0.0254 - dense_3_loss: 15.7080 - loss: 16.1301 - val_dense_1_accuracy: 0.6614 - val_dense_1_loss: 1.6061 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.3425
+Epoch 11/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 146ms/step - dense_1_accuracy: 0.9079 - dense_1_loss: 0.3296 - dense_3_accuracy: 0.0276 - dense_3_loss: 15.6732 - loss: 16.0028 - val_dense_1_accuracy: 0.6867 - val_dense_1_loss: 1.6143 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.3508
+Epoch 12/12
+159/159 ━━━━━━━━━━━━━━━━━━━━ 23s 145ms/step - dense_1_accuracy: 0.9113 - dense_1_loss: 0.3832 - dense_3_accuracy: 0.0246 - dense_3_loss: 15.7220 - loss: 16.1051 - val_dense_1_accuracy: 0.6867 - val_dense_1_loss: 1.6385 - val_dense_3_accuracy: 0.0237 - val_dense_3_loss: 15.7365 - val_loss: 17.3750
+[23.371216799976537, 22.88486640001065, 23.02734570001485, 23.06554499999038, 22.99585659999866, 23.00412579998374, 23.04388020001352, 23.003042399999686, 23.045825199980754, 22.993909099983284, 23.135078899998916, 23.0138059000019]
+276.5844979999529
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+{'dense_1_accuracy': 0.686661422252655, 'dense_1_loss': 1.6385225057601929, 'dense_3_accuracy': 0.023677978664636612, 'dense_3_loss': 15.736455917358398, 'loss': 17.374971389770508}
+[17.374971389770508, 1.6385225057601929, 15.736455917358398, 0.686661422252655, 0.023677978664636612]
+Validation loss: 17.374971389770508
+Validation accuracy: 0.023677978664636612
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+
+Process finished with exit code 0
