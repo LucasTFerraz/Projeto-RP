@@ -1,9 +1,10 @@
 # Projeto-RP
 
 This is a University Project for the Pattern Recognition Discipline. We replicated a previous studied focusing on the energetic effience of SNNs. In order to do so, we used 3 datasets to measure framework's energetic effiency. It can be seen in #Models Used. 
-The First dataset is the CIFAR-10, a famous one, used in the original study, is a well-established benchmark in the field of machine learning, specifically designed for image classification. Comprising 60,000 color images, each of size 32x32 pixels, the dataset is segmented into 10 distinct classes, each representing a different object or creature. 
+The First dataset is a reduced version of the CIFAR-10, a famous one, used in the original study, is a well-established benchmark in the field of machine learning, specifically designed for image classification. Comprising 60,000 color images, each of size 32x32 pixels, the dataset is segmented into 10 distinct classes, each representing a different object or creature. In the project we used 3 classes and 18000 images  used. 
 The second dataset is the Brain Tumor. This model takes MRI brain images as input, preprocesses them, and classifies them into two categories: "no" for no tumor and "yes" for tumor.
-The third one is the Dog Breed. This model classifies the inputs images into each dog breed category. 
+The third one is the Dog Breed. This model classifies the inputs images into each dog breed category.  In the project we used the data of 2 breeds. 
+Except by the cifar the data must be downloaded outside.
 
 If you are trying to replicate it, first, run the main framework with PyTorch and Spikingjelly, the second one with Keras and Sklearn(PyTorch) and the third one with PyTorch.
 
